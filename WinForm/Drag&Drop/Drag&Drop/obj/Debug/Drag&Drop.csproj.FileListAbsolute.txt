@@ -1,0 +1,10 @@
+F:\ITI_full stack 2023\C#\Project\Day_8\Drag&Drop\Drag&Drop\bin\Debug\Drag&Drop.exe.config
+F:\ITI_full stack 2023\C#\Project\Day_8\Drag&Drop\Drag&Drop\bin\Debug\Drag&Drop.exe
+F:\ITI_full stack 2023\C#\Project\Day_8\Drag&Drop\Drag&Drop\bin\Debug\Drag&Drop.pdb
+F:\ITI_full stack 2023\C#\Project\Day_8\Drag&Drop\Drag&Drop\obj\Debug\Drag&Drop.csproj.AssemblyReference.cache
+F:\ITI_full stack 2023\C#\Project\Day_8\Drag&Drop\Drag&Drop\obj\Debug\Drag_Drop.Form1.resources
+F:\ITI_full stack 2023\C#\Project\Day_8\Drag&Drop\Drag&Drop\obj\Debug\Drag_Drop.Properties.Resources.resources
+F:\ITI_full stack 2023\C#\Project\Day_8\Drag&Drop\Drag&Drop\obj\Debug\Drag&Drop.csproj.GenerateResource.cache
+F:\ITI_full stack 2023\C#\Project\Day_8\Drag&Drop\Drag&Drop\obj\Debug\Drag&Drop.csproj.CoreCompileInputs.cache
+F:\ITI_full stack 2023\C#\Project\Day_8\Drag&Drop\Drag&Drop\obj\Debug\Drag&Drop.exe
+F:\ITI_full stack 2023\C#\Project\Day_8\Drag&Drop\Drag&Drop\obj\Debug\Drag&Drop.pdb

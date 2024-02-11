@@ -1,0 +1,11 @@
+F:\ITI_full stack 2023\C#\Project\Day_7\Formating\Formating\bin\Debug\Formating.exe.config
+F:\ITI_full stack 2023\C#\Project\Day_7\Formating\Formating\bin\Debug\Formating.exe
+F:\ITI_full stack 2023\C#\Project\Day_7\Formating\Formating\bin\Debug\Formating.pdb
+F:\ITI_full stack 2023\C#\Project\Day_7\Formating\Formating\obj\Debug\Formating.csproj.AssemblyReference.cache
+F:\ITI_full stack 2023\C#\Project\Day_7\Formating\Formating\obj\Debug\Formating.Form1.resources
+F:\ITI_full stack 2023\C#\Project\Day_7\Formating\Formating\obj\Debug\Formating.Properties.Resources.resources
+F:\ITI_full stack 2023\C#\Project\Day_7\Formating\Formating\obj\Debug\Formating.csproj.GenerateResource.cache
+F:\ITI_full stack 2023\C#\Project\Day_7\Formating\Formating\obj\Debug\Formating.csproj.CoreCompileInputs.cache
+F:\ITI_full stack 2023\C#\Project\Day_7\Formating\Formating\obj\Debug\Formating.exe
+F:\ITI_full stack 2023\C#\Project\Day_7\Formating\Formating\obj\Debug\Formating.pdb
+F:\ITI_full stack 2023\C#\Project\Day_7\Formating\Formating\obj\Debug\Formating.Form2.resources
