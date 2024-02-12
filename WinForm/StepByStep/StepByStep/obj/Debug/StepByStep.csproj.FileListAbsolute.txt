@@ -1,0 +1,10 @@
+F:\ITI_full stack 2023\C#\Project\Day_7\StepByStep\StepByStep\bin\Debug\StepByStep.exe.config
+F:\ITI_full stack 2023\C#\Project\Day_7\StepByStep\StepByStep\bin\Debug\StepByStep.exe
+F:\ITI_full stack 2023\C#\Project\Day_7\StepByStep\StepByStep\bin\Debug\StepByStep.pdb
+F:\ITI_full stack 2023\C#\Project\Day_7\StepByStep\StepByStep\obj\Debug\StepByStep.csproj.AssemblyReference.cache
+F:\ITI_full stack 2023\C#\Project\Day_7\StepByStep\StepByStep\obj\Debug\StepByStep.Form1.resources
+F:\ITI_full stack 2023\C#\Project\Day_7\StepByStep\StepByStep\obj\Debug\StepByStep.Properties.Resources.resources
+F:\ITI_full stack 2023\C#\Project\Day_7\StepByStep\StepByStep\obj\Debug\StepByStep.csproj.GenerateResource.cache
+F:\ITI_full stack 2023\C#\Project\Day_7\StepByStep\StepByStep\obj\Debug\StepByStep.csproj.CoreCompileInputs.cache
+F:\ITI_full stack 2023\C#\Project\Day_7\StepByStep\StepByStep\obj\Debug\StepByStep.exe
+F:\ITI_full stack 2023\C#\Project\Day_7\StepByStep\StepByStep\obj\Debug\StepByStep.pdb

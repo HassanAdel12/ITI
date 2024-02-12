@@ -1,0 +1,7 @@
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_1\Day_1\bin\Debug\Day_1.exe.config
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_1\Day_1\bin\Debug\Day_1.exe
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_1\Day_1\bin\Debug\Day_1.pdb
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_1\Day_1\obj\Debug\Day_1.csproj.AssemblyReference.cache
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_1\Day_1\obj\Debug\Day_1.csproj.CoreCompileInputs.cache
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_1\Day_1\obj\Debug\Day_1.exe
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_1\Day_1\obj\Debug\Day_1.pdb

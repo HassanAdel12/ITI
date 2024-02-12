@@ -1,0 +1,14 @@
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\bin\Debug\Day_3.exe.config
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\bin\Debug\Day_3.exe
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\bin\Debug\Day_3.pdb
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\bin\Debug\EntityFramework.dll
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\bin\Debug\EntityFramework.SqlServer.dll
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\bin\Debug\EntityFramework.xml
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\bin\Debug\EntityFramework.SqlServer.xml
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\obj\Debug\Day_3.csproj.AssemblyReference.cache
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\obj\Debug\Day_3.csproj.CoreCompileInputs.cache
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\obj\Debug\Day_3.csproj.CopyComplete
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\obj\Debug\Day_3.exe
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\obj\Debug\Day_3.pdb
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\obj\Debug\Day_3.Migrations.InitialCreate.resources
+F:\ITI_full stack 2023\LINQ&EF\Project\Day_3\Day_3\obj\Debug\Day_3.csproj.GenerateResource.cache
