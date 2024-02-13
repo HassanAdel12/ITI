@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Registration">
+        <style>
+            label{font-size: large;}
+        </style>
+    </head>
+    <body style="background-image: url(images/welcome\ image.jpg); background-repeat: no-repeat; background-size: cover;">
+        
+        <h1 style="text-align: center; padding-top: 100px;">Registration Form</h1>
+        <form action="Thankyou.html" method="get" style="padding-top: 20px; padding-left: 35%;">
+            
+            <input type="hidden" name="Id">
+
+            <input type="text" name="FName" placeholder="Enter your First Name" size="50px" style=" padding-bottom: 10px;" autocomplete="off" required><br><br>
+            <input type="text" name="LName" placeholder="Enter your Last Name" size="50px" style=" padding-bottom: 10px;" autocomplete="off" required><br><br>
+
+            <input type="email" name="Email" placeholder="Enter your Email" size="50px" style="padding-bottom: 10px;" autocomplete="off" required><br><br>
+
+            <input type="password" name="Password" placeholder="Enter your Password" size="50px" style="padding-bottom: 10px;" autocomplete="off"> <br><br>
+            <input type="password" name="RepeatPassword" placeholder="Enter your Repeat password" size="50px" style="padding-bottom: 10px;" autocomplete="off"> <br><br>
+            
+            <label for="BD">Enter your Birth Date : </label>&nbsp;&nbsp;
+            <input type="date" id="BD" name="BD" > <br><br>
+
+            <label for="MyPicture">Enter your Picture : </label>&nbsp;&nbsp;
+            <input type="file" id="MyPicture" name="MyPicture" autocomplete="off"> <br><br>
+
+            <fieldset style="width: 35%;">
+                <legend>Gender : </legend>
+                <input type="radio"  name="Gen" >Male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio"  name="Gen">Female
+            </fieldset><br><br>
+
+            <label for="Faculty">Enter your Faculty : </label>&nbsp;&nbsp;&nbsp;
+            <select name="Faculty" id="Faculty">
+                <option value="Luxor">Luxor university</option>
+                <option value="Cairo">cairo university</option>
+                <option value="Minia">Minia university</option>
+                <option value="Aswan">Aswan university</option>
+                <option value="Assiut">Assiut University</option>
+            </select><br><br>
+
+            <fieldset style="width: 35%;">
+                <legend>Interests : </legend>
+                <input type="checkbox"  name="Interests"> Programming 	&nbsp;&nbsp;
+                <input type="checkbox"  name="Interests"> Reading 	&nbsp;&nbsp;
+                <input type="checkbox"  name="Interests"> Swimming
+            </fieldset><br><br>
+
+            <label for="About">About you : </label><br>
+            <textarea id="About" cols="55" rows="15" autocomplete="off"></textarea><br><br>
+
+            <input type="checkbox"  name="terms" required>I agreed to terms and condition 
+
+            <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset"  value="Cancel" style="padding-left: 20px;padding-right: 20px;font-size: x-large;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" value="Create" style="padding-left: 25px;padding-right: 25px;font-size: x-large;">
+        
+        </form>
+
+        <br><br>
+        <br><br>
+    
+    </body>
+</html>
