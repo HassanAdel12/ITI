@@ -1,0 +1,181 @@
+﻿@model List<Day_5Bouns.Models.Student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div id="itemlist">
+    @Html.Partial("StudentListPV", Model)
+</div>
+
+<br />
+<br />
+<hr />
+<hr />
+
+<h2>Create</h2>
+
+<br />
+<br />
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="FullName" class="control-label">Full Name</label>
+            <input name="FullName" id="txtFullName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="CityID" class="control-label">City ID</label>
+            <input Name="CityID" id="txtCityID" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="Graduated" class="control-label">Graduated</label>
+            <input name="Graduated" id="txtGraduated" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="GPA" class="control-label">GPA</label>
+            <input Name="GPA" id="txtGPA" class="form-control" />
+        </div>
+        <br />
+        <br />
+        <div class="form-group">
+            <input type="button" id="addBtn" value="Add New Student" class="btn btn-primary" />
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+
+<h2>Delete</h2>
+
+<br />
+<br />
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="ID" class="control-label">ID</label>
+            <input name="ID" id="txtID" class="form-control" />
+        </div>
+
+        <br />
+        <br />
+        <div class="form-group">
+            <input type="button" id="DeleteBtn" value="Delete" class="btn btn-primary" />
+        </div>
+    </div>
+</div>
+
+
+<br />
+<br />
+<br />
+
+<h2>Edit</h2>
+
+<br />
+<br />
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="ID" class="control-label">ID</label>
+            <input name="ID" id="txtIDUP" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="FullName" class="control-label">Full Name</label>
+            <input name="FullName" id="txtFullNameUP" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="CityID" class="control-label">City ID</label>
+            <input Name="CityID" id="txtCityIDUP" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="Graduated" class="control-label">Graduated</label>
+            <input name="Graduated" id="txtGraduatedUP" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="GPA" class="control-label">GPA</label>
+            <input Name="GPA" id="txtGPAUP" class="form-control" />
+        </div>
+        <br />
+        <br />
+        <div class="form-group">
+            <input type="button" id="UpdateBtn" value="Update Student" class="btn btn-primary" />
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        $(function () {
+            $("#addBtn").click(function () {
+                var Student = {}; //create an object
+
+                Student.FullName = $("#txtFullName").val();
+                Student.CityID = $("#txtCityID").val();
+                Student.Graduated = $("#txtGraduated").val();
+                Student.GPA = $("#txtGPA").val();
+
+                $.ajax({
+                    url: "@Url.Action("Create", "Student")",
+                    data: { st: Student }, //the name ("model") should be the same with the parameter's name in the controller.
+                    type: "Post", //change the method to Post.
+                    success: function (result) {
+                        $("#itemlist").html("");
+                        $("#itemlist").html(result);
+                    },
+                    error: function (result) {
+                        window.alert("This is an unhandled exception. ");
+                    }
+                });
+            });
+
+
+
+
+            $("#DeleteBtn").click(function () {
+            var id = $("#txtID").val();
+
+                $.ajax({
+                    url: "@Url.Action("Delete", "Student")",
+                    data: { Id : id }, //the name ("model") should be the same with the parameter's name in the controller.
+                    type: "Post", //change the method to Post.
+                    success: function (result) {
+                        $("#itemlist").html("");
+                        $("#itemlist").html(result);
+                    },
+                    error: function (result) {
+                        window.alert("This is an unhandled exception. ");
+                    }
+                });
+            });
+
+
+
+
+            $("#UpdateBtn").click(function () {
+            var Student = {}; //create an object
+            Student.ID = $("#txtIDUP").val();
+            Student.FullName = $("#txtFullNameUP").val();
+            Student.CityID = $("#txtCityIDUP").val();
+            Student.Graduated = $("#txtGraduatedUP").val();
+            Student.GPA = $("#txtGPAUP").val();
+
+                $.ajax({
+                    url: "@Url.Action("Edit", "Student")",
+                    data: { student : Student }, //the name ("model") should be the same with the parameter's name in the controller.
+                    type: "Post", //change the method to Post.
+                    success: function (result) {
+                        $("#itemlist").html("");
+                        $("#itemlist").html(result);
+                    },
+                    error: function (result) {
+                        window.alert("This is an unhandled exception. ");
+                    }
+                });
+            });
+        });
+    </script>
+}

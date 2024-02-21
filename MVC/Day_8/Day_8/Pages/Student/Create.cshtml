@@ -1,0 +1,54 @@
+﻿@page 
+@model Day_8.Pages.Student.CreateModel
+@{
+}
+
+
+<h2>Create</h2>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="All"></div>
+
+    <div class="form-group">
+        <label asp-for="Student.FullName" class="control-label"></label>
+        <input asp-for="Student.FullName" class="form-control" />
+        <span asp-validation-for="Student.FullName"></span>
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="Student.Graduated" class="control-label"></label>
+        <input asp-for="Student.Graduated" />
+        <span asp-validation-for="Student.Graduated"></span>
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="Student.Gpa" class="control-label"></label>
+        <input asp-for="Student.Gpa" class="form-control" />
+        <span asp-validation-for="Student.Gpa"></span>
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label asp-for="Student.CityId" class="control-label"></label>
+        <select asp-for="Student.CityId" asp-items="@Model.Cities" class="form-select"></select>
+        <span asp-validation-for="Student.CityId"></span>
+    </div>
+
+    <br />
+    <br />
+
+    <input type="submit" value="Create" class="btn btn-success" />
+
+</form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

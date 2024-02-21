@@ -1,0 +1,4 @@
+Hassan|Giza|20000|Sunday, February 1, 1998
+Adel|Giza|5000|Sunday, February 1, 1998
+Ahmed|sohag|5000|Sunday, February 1, 1998
+Kerem|sohag|30000|Sunday, February 1, 1998

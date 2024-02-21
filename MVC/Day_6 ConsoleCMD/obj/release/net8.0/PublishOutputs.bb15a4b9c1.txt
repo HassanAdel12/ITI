@@ -1,0 +1,5 @@
+F:\ITI_full stack 2023\MVC\Project\Day_6 ConsoleCMD\bin\release\net8.0\publish\Day_6 ConsoleCMD.exe
+F:\ITI_full stack 2023\MVC\Project\Day_6 ConsoleCMD\bin\release\net8.0\publish\Day_6 ConsoleCMD.dll
+F:\ITI_full stack 2023\MVC\Project\Day_6 ConsoleCMD\bin\release\net8.0\publish\Day_6 ConsoleCMD.deps.json
+F:\ITI_full stack 2023\MVC\Project\Day_6 ConsoleCMD\bin\release\net8.0\publish\Day_6 ConsoleCMD.runtimeconfig.json
+F:\ITI_full stack 2023\MVC\Project\Day_6 ConsoleCMD\bin\release\net8.0\publish\Day_6 ConsoleCMD.pdb

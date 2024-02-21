@@ -1,0 +1,10 @@
+F:\ITI_full stack 2023\C#\Project\Day_7\Registeration_Day7\Registeration_Day7\bin\Debug\Registeration_Day7.exe.config
+F:\ITI_full stack 2023\C#\Project\Day_7\Registeration_Day7\Registeration_Day7\bin\Debug\Registeration_Day7.exe
+F:\ITI_full stack 2023\C#\Project\Day_7\Registeration_Day7\Registeration_Day7\bin\Debug\Registeration_Day7.pdb
+F:\ITI_full stack 2023\C#\Project\Day_7\Registeration_Day7\Registeration_Day7\obj\Debug\Registeration_Day7.csproj.AssemblyReference.cache
+F:\ITI_full stack 2023\C#\Project\Day_7\Registeration_Day7\Registeration_Day7\obj\Debug\Registeration_Day7.Form1.resources
+F:\ITI_full stack 2023\C#\Project\Day_7\Registeration_Day7\Registeration_Day7\obj\Debug\Registeration_Day7.Properties.Resources.resources
+F:\ITI_full stack 2023\C#\Project\Day_7\Registeration_Day7\Registeration_Day7\obj\Debug\Registeration_Day7.csproj.GenerateResource.cache
+F:\ITI_full stack 2023\C#\Project\Day_7\Registeration_Day7\Registeration_Day7\obj\Debug\Registeration_Day7.csproj.CoreCompileInputs.cache
+F:\ITI_full stack 2023\C#\Project\Day_7\Registeration_Day7\Registeration_Day7\obj\Debug\Registeration_Day7.exe
+F:\ITI_full stack 2023\C#\Project\Day_7\Registeration_Day7\Registeration_Day7\obj\Debug\Registeration_Day7.pdb

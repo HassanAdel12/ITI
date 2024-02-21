@@ -1,0 +1,10 @@
+F:\ITI_full stack 2023\C#\Project\Day_8\DataGruid\DataGruid\bin\Debug\DataGruid.exe.config
+F:\ITI_full stack 2023\C#\Project\Day_8\DataGruid\DataGruid\bin\Debug\DataGruid.exe
+F:\ITI_full stack 2023\C#\Project\Day_8\DataGruid\DataGruid\bin\Debug\DataGruid.pdb
+F:\ITI_full stack 2023\C#\Project\Day_8\DataGruid\DataGruid\obj\Debug\DataGruid.csproj.AssemblyReference.cache
+F:\ITI_full stack 2023\C#\Project\Day_8\DataGruid\DataGruid\obj\Debug\DataGruid.Properties.Resources.resources
+F:\ITI_full stack 2023\C#\Project\Day_8\DataGruid\DataGruid\obj\Debug\DataGruid.csproj.GenerateResource.cache
+F:\ITI_full stack 2023\C#\Project\Day_8\DataGruid\DataGruid\obj\Debug\DataGruid.csproj.CoreCompileInputs.cache
+F:\ITI_full stack 2023\C#\Project\Day_8\DataGruid\DataGruid\obj\Debug\DataGruid.exe
+F:\ITI_full stack 2023\C#\Project\Day_8\DataGruid\DataGruid\obj\Debug\DataGruid.pdb
+F:\ITI_full stack 2023\C#\Project\Day_8\DataGruid\DataGruid\obj\Debug\DataGruid.Form1.resources

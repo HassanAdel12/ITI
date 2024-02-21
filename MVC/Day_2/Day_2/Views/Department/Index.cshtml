@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        table * {
+            border: 1px solid black;
+            width: 150px;
+            text-align :center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Title</th>
+                <th></th>
+                <th></th>
+            </tr>
+            @foreach (var item in Day_2.Models.DBContext.Deparments)
+            {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.Title</td>
+                        <td><button><a href="~/Department/Update/@item.Id">Update</a></button></td>
+                        <td><button><a href="~/Department/Remove/@item.Id">Remove</a></button></td>
+                    </tr>
+            }
+        </table>
+    </div>
+
+    <br/>
+    <br/>
+
+    <button><a href="~/Department/Create">Create New Department</a></button>
+   
+</body>
+</html>
