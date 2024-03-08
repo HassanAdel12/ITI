@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+            $(document).ready(function(){
+              $("button").click(function(){
+                  $.ajax({
+                      url: "http://localhost:32620/api/Student",
+                      dataType: "JSON",
+                      success: function (result) {
+                          for(let x of result)
+                          {
+                            document.getElementById("div").innerHTML += x.fullName+"<br>"
+                          }
+                }});
+              });
+            });
+    </script>
+</head>
+<body>
+    <button>Add each Student</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="div"></div>
+
+    
+
+</body>
+</html>

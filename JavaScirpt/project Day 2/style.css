@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(10, 203, 242);
+}
+
+button {
+    display: block;
+    position: relative;
+    left: 40%;
+    top: 5em;
+    padding: 20px 60px;
+    margin: 50px;
+    background-color: rgb(5, 139, 0);
+    border: 0px;
+    border-radius: 50px;
+
+}
+button:hover{
+    background-color: blue;
+}
+
+label{
+    position: relative;
+    left: 43%;
+    top: 3.5em;
+    font-size: x-large;
+
+}
+
+input{
+    position: relative;
+    left: 45%;
+    top: 6em;
+    width: 12em;
+    height: 2em;
+}

@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|f:\\iti_full stack 2023\\api\\project\\day_2mvc\\day_2mvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|solutionrelative:day_2mvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|f:\\iti_full stack 2023\\api\\project\\day_2mvc\\day_2mvc\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|solutionrelative:day_2mvc\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|f:\\iti_full stack 2023\\api\\project\\day_2mvc\\day_2mvc\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|solutionrelative:day_2mvc\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|f:\\iti_full stack 2023\\api\\project\\day_2mvc\\day_2mvc\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|solutionrelative:day_2mvc\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|f:\\iti_full stack 2023\\api\\project\\day_2mvc\\day_2mvc\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|solutionrelative:day_2mvc\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|f:\\iti_full stack 2023\\api\\project\\day_2mvc\\day_2mvc\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|solutionrelative:day_2mvc\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|f:\\iti_full stack 2023\\api\\project\\day_2mvc\\day_2mvc\\views\\city\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|solutionrelative:day_2mvc\\views\\city\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|f:\\iti_full stack 2023\\api\\project\\day_2mvc\\day_2mvc\\views\\city\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|solutionrelative:day_2mvc\\views\\city\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|f:\\iti_full stack 2023\\api\\project\\day_2mvc\\day_2mvc\\views\\city\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|solutionrelative:day_2mvc\\views\\city\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|f:\\iti_full stack 2023\\api\\project\\day_2mvc\\day_2mvc\\views\\city\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|solutionrelative:day_2mvc\\views\\city\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|f:\\iti_full stack 2023\\api\\project\\day_2mvc\\day_2mvc\\models\\getstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|solutionrelative:day_2mvc\\models\\getstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|f:\\iti_full stack 2023\\api\\project\\day_2mvc\\day_2mvc\\models\\getcity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3F2CC7-7F86-433F-8A69-F5A7E068BB90}|Day_2MVC\\Day_2MVC.csproj|solutionrelative:day_2mvc\\models\\getcity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "Day_2MVC\\Views\\Student\\Details.cshtml",
+              "ToolTip": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "Day_2MVC\\Views\\Student\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T22:11:12.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Day_2MVC\\Views\\Student\\Create.cshtml",
+              "ToolTip": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Day_2MVC\\Views\\Student\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T22:08:44.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Day_2MVC\\Views\\Student\\Index.cshtml",
+              "ToolTip": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Day_2MVC\\Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAgwDAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T22:06:29.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\City\\Details.cshtml",
+              "RelativeDocumentMoniker": "Day_2MVC\\Views\\City\\Details.cshtml",
+              "ToolTip": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\City\\Details.cshtml",
+              "RelativeToolTip": "Day_2MVC\\Views\\City\\Details.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T21:18:35.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\City\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Day_2MVC\\Views\\City\\Edit.cshtml",
+              "ToolTip": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\City\\Edit.cshtml",
+              "RelativeToolTip": "Day_2MVC\\Views\\City\\Edit.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAmwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T20:48:06.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\City\\Create.cshtml",
+              "RelativeDocumentMoniker": "Day_2MVC\\Views\\City\\Create.cshtml",
+              "ToolTip": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\City\\Create.cshtml",
+              "RelativeToolTip": "Day_2MVC\\Views\\City\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T20:19:26.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\City\\Index.cshtml",
+              "RelativeDocumentMoniker": "Day_2MVC\\Views\\City\\Index.cshtml",
+              "ToolTip": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\City\\Index.cshtml",
+              "RelativeToolTip": "Day_2MVC\\Views\\City\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwCIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T17:31:38.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CityController.cs",
+              "DocumentMoniker": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Controllers\\CityController.cs",
+              "RelativeDocumentMoniker": "Day_2MVC\\Controllers\\CityController.cs",
+              "ToolTip": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Controllers\\CityController.cs",
+              "RelativeToolTip": "Day_2MVC\\Controllers\\CityController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAA9wE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:05:04.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Day_2MVC\\Controllers\\StudentController.cs",
+              "ToolTip": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Day_2MVC\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAArwDwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:04:36.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Day_2MVC\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "Day_2MVC\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA8AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T22:09:46.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetCity.cs",
+              "DocumentMoniker": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Models\\GetCity.cs",
+              "RelativeDocumentMoniker": "Day_2MVC\\Models\\GetCity.cs",
+              "ToolTip": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Models\\GetCity.cs",
+              "RelativeToolTip": "Day_2MVC\\Models\\GetCity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:01:44.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetStudent.cs",
+              "DocumentMoniker": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Models\\GetStudent.cs",
+              "RelativeDocumentMoniker": "Day_2MVC\\Models\\GetStudent.cs",
+              "ToolTip": "F:\\ITI_full stack 2023\\API\\Project\\Day_2MVC\\Day_2MVC\\Models\\GetStudent.cs",
+              "RelativeToolTip": "Day_2MVC\\Models\\GetStudent.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA8wA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:01:26.674Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

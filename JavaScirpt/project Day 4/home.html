@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        #fName:valid {
+            border-color: #090;
+        }
+
+        #fName:invalid {
+            border-color: rgb(249, 3, 3);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <form action="" onsubmit="add(event)">
+            <label for="name">Full Name : </label>
+            <input type="text" id="fName" name="name" onblur="ValidateName(this)" onfocus="ChangeBorder(this)"
+                placeholder="Enter your Name" autocomplete="off" required>
+            <span id="nameValid">
+            </span><br><br>
+
+
+            <label for="gmail">Gmail : </label>
+            <input type="text" id="gmail" name="gmail" autocomplete="off" required><br><br>
+
+            <label for="city">City : </label>
+            <select id="city">
+                <option>Cairo</option>
+                <option>Sohag</option>
+                <option>Assiut</option>
+                <option>Minya</option>
+            </select><br><br>
+
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password" autocomplete="off" required><br><br>
+
+            <label for="rPassword">Repeat Password : </label>
+            <input type="password" name="rPassword" id="rPassword" onkeyup="ValidatePassword(this)" autocomplete="off"
+                required>
+            <span id="passwordValid"></span><br><br>
+
+            <input type="checkbox" required>I accept the terms and conditions.<br><br>
+
+            <input type="submit">
+        </form>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+
+    <div>
+        <img id="image" src="image/1.jpg" alt="image" width="400px" height="400px">
+
+        <br>
+        <br>
+        <br>
+
+        <button onclick="play()">Play</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="next()">Next</button>
+        <button onclick="previous()">Previous</button>
+
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div>
+        <img src="image/1.jpg" alt="image1" width="20%" height="200px" onmouseover="decreases(this)"
+            onmouseout="increases(this)">
+        <img src="image/2.jpg" alt="image2" width="20%" height="200px" onmouseover="decreases(this)"
+            onmouseout="increases(this)">
+        <img src="image/3.jpg" alt="image3" width="20%" height="200px" onmouseover="decreases(this)"
+            onmouseout="increases(this)">
+        <img src="image/4.jpg" alt="image4" width="20%" height="200px" onmouseover="decreases(this)"
+            onmouseout="increases(this)">
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <div id="Dom">
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img id="1" onmouseout="before(this)" onmouseover="change(this)" onclick="changeclick(this)"
+        src="image/empty_star.png">
+    <img id="2" onmouseout="before(this)" onmouseover="change(this)" onclick="changeclick(this)"
+        src="image/empty_star.png">
+    <img id="3" onmouseout="before(this)" onmouseover="change(this)" onclick="changeclick(this)"
+        src="image/empty_star.png">
+    <img id="4" onmouseout="before(this)" onmouseover="change(this)" onclick="changeclick(this)"
+        src="image/empty_star.png">
+    <img id="5" onmouseout="before(this)" onmouseover="change(this)" onclick="changeclick(this)"
+        src="image/empty_star.png">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="rate"></div>
+    <br>
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

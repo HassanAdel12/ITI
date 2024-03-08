@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+
+<body onkeydown="stop(event);">
+
+    <input type="text" onkeydown="clicked(event)" onmousedown="clicked(event)">
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <button onclick="clockStarted()">Start Clock</button><br>
+    <div id="dev"></div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <img src="images/image-man-texting.jpg" alt="" id="1" width="33%">
+        <img src="images/image-men-in-meeting.jpg" alt="" id="2" width="33%">
+        <img src="images/image-woman-in-videocall.jpg" id="3" width="33%">
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div>
+        <form action="" onsubmit="addNewWindow()">
+
+            <label for="fname">First Name : </label>
+            <input type="text" id="fname" placeholder="Enter your First Name" onkeydown="checkkey(event)" autocomplete="off" required><br><br>
+
+            
+            <label for="uname">Name : </label>
+            <input type="text" id="uname" placeholder="Enter your Name" autocomplete="off" required><br><br>
+            
+            <label for="pass">Password : </label>
+            <input type="password" id="pass" autocomplete="off"><br><br>
+            
+            <label for="Checked">
+                <input type="checkbox" name="Checked" id="Checked" required>
+                <a href="scroll.html" target="_blank">I agree to the terms and conditions.</a>
+                    </label><br><br>
+            <input type="submit" value="login">
+
+        </form>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <a href="" onclick="openNewPage(event)">Open New Page</a>
+    <br>
+    <br>
+    <a href="" onclick="closeNewPage(event)">Close New Page</a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
