@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+
+</head>
+
+<body>
+    <p>birth day</p>
+    <time datetime="2023-02-01"> feb 1 2023</time>
+    <br>
+    <br>
+    <meter value="14" min="0" max="20" low="5" high="17" optimum="12"></meter>
+    <br>
+    <br>
+    <mark>Hassan Adel</mark>
+    <br>
+    <br>
+    <progress value="8" max="15"></progress>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <img id="1" onmouseout="before(this)" onmouseover="change(this)" onclick="changeclick(this)"
+        src="image/empty_star.png">
+    <img id="2" onmouseout="before(this)" onmouseover="change(this)" onclick="changeclick(this)"
+        src="image/empty_star.png">
+    <img id="3" onmouseout="before(this)" onmouseover="change(this)" onclick="changeclick(this)"
+        src="image/empty_star.png">
+    <img id="4" onmouseout="before(this)" onmouseover="change(this)" onclick="changeclick(this)"
+        src="image/empty_star.png">
+    <img id="5" onmouseout="before(this)" onmouseover="change(this)" onclick="changeclick(this)"
+        src="image/empty_star.png">
+    <br>
+    <br>
+    <br>
+    <div id="rate"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <video controls style="width: 30%;">
+        <source src="video/sample.mp4">
+        <source src="video/sample.ogv">
+        <source src="video/sample.webm">
+    </video>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <audio controls>
+        <source src="audio/bgsound.mp3">
+        <source src="audio/bgsound.wav">
+    </audio>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <script>
+
+        var stars = 0
+        var conter = 1
+
+        function change(e) {
+
+            if (conter != 0) {
+                for (let index = 1; index <= e.id; index++) {
+                    document.getElementById(index).src = "image/Filled_star.png"
+                }
+
+                conter++
+            }
+          
+        }
+
+        function changeclick(e) {
+            stars = parseInt(e.id);
+            for (let index = 1; index <= stars; index++) {
+                document.getElementById(index).src = "image/Filled_star.png"
+            }
+            for (let index = stars + 1; index <= 5; index++) {
+                document.getElementById(index).src = "image/empty_star.png"
+            }
+            conter = 0
+            document.getElementById("rate").innerHTML = "Rating : " + stars
+        }
+
+        function before(e) {
+            if (conter != 0) {
+                for (let index = 1; index <= e.id; index++) {
+                    document.getElementById(index).src = "image/empty_star.png"
+                }
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>

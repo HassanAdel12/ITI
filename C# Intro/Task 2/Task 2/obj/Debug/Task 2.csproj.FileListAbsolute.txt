@@ -1,0 +1,7 @@
+E:\ITI_full stack 2023\C#\project\Task 2\Task 2\bin\Debug\Task 2.exe.config
+E:\ITI_full stack 2023\C#\project\Task 2\Task 2\bin\Debug\Task 2.exe
+E:\ITI_full stack 2023\C#\project\Task 2\Task 2\bin\Debug\Task 2.pdb
+E:\ITI_full stack 2023\C#\project\Task 2\Task 2\obj\Debug\Task 2.csproj.AssemblyReference.cache
+E:\ITI_full stack 2023\C#\project\Task 2\Task 2\obj\Debug\Task 2.csproj.CoreCompileInputs.cache
+E:\ITI_full stack 2023\C#\project\Task 2\Task 2\obj\Debug\Task 2.exe
+E:\ITI_full stack 2023\C#\project\Task 2\Task 2\obj\Debug\Task 2.pdb

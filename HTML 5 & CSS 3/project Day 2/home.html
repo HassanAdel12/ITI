@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #circle2:hover {
+            fill: url(#linear2)
+        }
+    </style>
+
+</head>
+
+<body>
+    <video id="video" controls style="width: 30%;">
+        <source src="video/sample.mp4">
+        <source src="video/sample.ogv">
+        <source src="video/sample.webm">
+    </video>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button onclick="play()">Play</button>
+    <button onclick="pause()">Pause</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <svg width="250" height="250">
+        <circle id="circle" cx="100" cy="100" r="70" stroke="black" stroke-width="4px" />
+    </svg>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <canvas id="canvas" width="300px" height="300px" style="border: 2px solid;">
+
+    </canvas>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <svg width="600" height="600">
+        <defs>
+            <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color: red; stop-opacity: 1;" />
+                <stop offset="50%" style="stop-color: green; stop-opacity: 1;" />
+                <stop offset="100%" style="stop-color: blue; stop-opacity: 1;" />
+
+            </linearGradient>
+        </defs>
+        <text x="100" y="250" fill="url(#linear)" style="font-size: xx-large;">Hassan Adel Hussein</text>
+        <circle id="circle1" cx="250" cy="250" r="200" stroke="black" stroke-width="4px" fill="transparent" />
+    </svg>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <canvas id="canvas2" width="600px" height="600px" style="border: 2px solid;">
+
+    </canvas>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- Bouns 2 -->
+
+    <svg width="500" height="500">
+        <defs>
+            <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color: red; stop-opacity: 1;" />
+                <stop offset="50%" style="stop-color: green; stop-opacity: 1;" />
+                <stop offset="100%" style="stop-color: blue; stop-opacity: 1;" />
+
+            </linearGradient>
+        </defs>
+        <defs>
+            <radialGradient id="linear2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color: red; stop-opacity: 1;" />
+                <stop offset="50%" style="stop-color: green; stop-opacity: 1;" />
+                <stop offset="100%" style="stop-color: blue; stop-opacity: 1;" />
+
+            </radialGradient>
+        </defs>
+        <circle id="circle2" cx="150" cy="150" r="120" fill="url(#linear)" stroke="black" stroke-width="4px" />
+    </svg>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Bouns 3 -->
+
+    <canvas id="canvas3" width="300px" height="300px" style="border: 2px solid;">
+
+    </canvas>
+
+    <script>
+
+        // Task 1
+        var myVideo = document.getElementById("video");
+        function play() {
+            myVideo.play();
+        }
+        function pause() {
+            myVideo.pause();
+        }
+
+        // Task 2
+
+        var el = document.getElementById("circle")
+        el.onmouseover = function () {
+            this.style.stroke = "blue"
+            this.style.fill = "red"
+        }
+
+        el.onmousedown = function () {
+            this.style.stroke = "red"
+            this.style.fill = "blue"
+        }
+
+        el.onmouseup = function () {
+            alert("SVG")
+        }
+
+        // Task 3
+
+        var c = document.getElementById("canvas")
+        var context = c.getContext('2d')
+        var sadImage = new Image();
+        sadImage.src = "image/sad.png";
+        var happyImage = new Image();
+        happyImage.src = "image/smiley.png";
+
+
+        sadImage.onload = function () {
+            context.drawImage(sadImage, 0, 0);
+            context.stroke();
+        }
+
+
+
+        canvas.onmousedown = function () {
+            context.drawImage(happyImage, 0, 0);
+            context.stroke();
+        }
+
+        canvas.onmouseup = function () {
+            context.drawImage(sadImage, 0, 0);
+            context.stroke();
+        }
+
+
+        // Bouns 1
+
+        var c2 = document.getElementById("canvas2")
+        var context2 = c2.getContext('2d')
+
+        c2.onclick = function () { show(event) };
+        c2.onmousemove = function () { show(event) };
+        c2.oncontextmenu = function () { deletes(event) };
+        function show(event) {
+            if (c2.onclick && c2.onmousemove) {
+                let x = event.clientX;
+                let y = event.clientY;
+
+                context2.fillRect(x - 9, y - 44, 5, 5);
+                context2.fillStyle = "black"
+                context2.stroke();
+                console.log(x + " , " + y)
+            }
+
+
+        }
+
+        function deletes(event) {
+            if (c2.oncontextmenu && c2.onmousemove) {
+                let x = event.clientX;
+                let y = event.clientY;
+
+                context2.fillRect(x - 9, y - 44, 5, 5);
+                context2.fillStyle = "white"
+                context2.stroke();
+                console.log(x + " , " + y)
+            }
+
+        }
+
+
+        //Bouns 3
+
+
+        var c3 = document.getElementById("canvas3")
+        var context3 = c3.getContext('2d')
+
+        context3.fillRect(70, 60, 50, 50);
+        context3.fillRect(180, 60, 50, 50);
+
+        context3.fillRect(70, 180, 10, 10);
+        context3.fillRect(80, 185, 10, 10);
+        context3.fillRect(90, 190, 10, 10);
+        context3.fillRect(100, 195, 10, 10);
+        context3.fillRect(110, 200, 10, 10);
+        context3.fillRect(120, 205, 10, 10);
+        context3.fillRect(130, 210, 10, 10);
+        context3.fillRect(140, 215, 10, 10);
+        context3.fillRect(150, 220, 10, 10);
+        context3.fillRect(160, 215, 10, 10);
+        context3.fillRect(170, 210, 10, 10);
+        context3.fillRect(180, 205, 10, 10);
+        context3.fillRect(190, 200, 10, 10);
+        context3.fillRect(200, 195, 10, 10);
+        context3.fillRect(210, 190, 10, 10);
+        context3.fillRect(220, 185, 10, 10);
+        context3.fillRect(230, 180, 10, 10);
+        context3.stroke();
+
+
+        canvas3.onmousedown = function () {
+            context3.fillStyle = "white"
+            context3.fillRect(0, 0, 300, 300);
+            context3.fillStyle = "black"
+            context3.fillRect(70, 60, 50, 50);
+            context3.fillRect(180, 60, 50, 50);
+
+            context3.fillRect(70, 180, 10, 10);
+            context3.fillRect(80, 175, 10, 10);
+            context3.fillRect(90, 170, 10, 10);
+            context3.fillRect(100, 165, 10, 10);
+            context3.fillRect(110, 160, 10, 10);
+            context3.fillRect(120, 155, 10, 10);
+            context3.fillRect(130, 150, 10, 10);
+            context3.fillRect(140, 145, 10, 10);
+            context3.fillRect(150, 140, 10, 10);
+            context3.fillRect(160, 145, 10, 10);
+            context3.fillRect(170, 150, 10, 10);
+            context3.fillRect(180, 155, 10, 10);
+            context3.fillRect(190, 160, 10, 10);
+            context3.fillRect(200, 165, 10, 10);
+            context3.fillRect(210, 170, 10, 10);
+            context3.fillRect(220, 175, 10, 10);
+            context3.fillRect(230, 180, 10, 10);
+            context.stroke();
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>

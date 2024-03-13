@@ -1,0 +1,138 @@
+#border{
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+#p{
+    font-family: 'Gloria Hallelujah', cursive;
+    columns: 3;
+    column-gap: 30px;
+    column-rule: 5px solid;
+}
+
+#name{
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    transform: translate(100px, 100px);
+    transform: rotate(90deg);
+}
+
+
+#image{
+    
+    transition-property: all;
+    transition-duration: 10s;
+    transition-timing-function: ease;
+}
+#image:hover{
+    width: 600px;
+  height: 600px;
+  transform: rotate(360deg);
+}
+
+
+
+#image2{
+    animation-name: animate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes animate {
+    0% {
+        width: 150px;
+        height: 150px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    25% {
+        width: 200px;
+        height: 200px;
+        margin-left: 600px;
+        margin-top: 0px;
+    }
+    50% {
+        width: 250px;
+        height: 250px;
+        margin-left: 600px;
+        margin-top: 600px;
+    }
+    75% {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: 600px;
+    }
+    100% {
+        width: 350px;
+        height: 350px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+.tiger{
+    width: 100px; 
+    height: 100px;
+}
+
+#image3{
+    
+    
+    transition-property: transform ;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; 
+}
+#image3:hover{
+    transform: translate(50px,0px) rotateY(180deg);
+   
+}
+
+
+#image4{
+    margin-left: 600px; 
+    animation-name: animatetiger;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse ;
+    
+}
+
+@keyframes animatetiger  {
+    0% {
+  
+        transform: translate(50px,0px) rotateY(0deg);
+    }
+    20% {
+        
+        margin-left: 600px;
+    }
+    40% {
+        
+        margin-left: 0px;
+    }
+   
+    50% {
+       
+        transform: translate(50px,0px) rotateY(180deg);
+    }
+    60% {
+        
+        margin-left: 0px;
+    }
+    85% {
+            
+        margin-left: 0px;
+    }
+
+    100% {
+    
+        transform: translate(50px,0px) rotateY(0deg);
+    }
+   
+}
